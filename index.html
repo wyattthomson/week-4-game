@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Crystal Collector</h1>
+			</div>
+		</div>
+		<div id="paragraph">
+			<p>You will be given a random number at the start of the game.<br>
+			<br>
+			There are four crytals below. By clicking on a crystal you will add a specific amount of points to your total score.<br>
+			<br>
+			You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+			<br>
+			The value of each crystal is hidden from you until you click on it.<br>
+			<br>
+			Each time the game starts, the game will change the value of each crystal.</p>
+		</div>
+		<div id="computerScore">
+			<span id="compTal">0</span>
+		</div>
+		<div id="gameCounter">
+			<span id="win">Wins: <span id="winTotal">0</span></span> <span id="loss">Losses: <span id="lossTotal">0</span></span> <span id="message"></span>
+		</div>
+		<div id="crystals">
+			<button id="redButton"><img alt="red" src="assets/images/red.png"></button> <button id="blueButton"><img alt="blue" src="assets/images/blue.png"></button> <button id="yellowButton"><img alt="yellow" src="assets/images/yellow.png"></button> <button id="greenButton"><img alt="green" src="assets/images/green.png"></button>
+		</div>
+		<div id="scoreCount">
+			Your total score is: <span id="scoreTal">0</span>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.0.js" type="text/javascript">
+	</script> 
+	<script src="assets/javascript/game.js" type="text/javascript">
+	</script>
+</body>
+</html>
